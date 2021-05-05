@@ -1,7 +1,5 @@
 # currency-converter
-![Piotr](https://github.com/PiotrK-code/currency-converter/blob/main/images/money.jpg)
-
-# Piotr Kowalski - moja pierwsza strona
+![Currency](https://github.com/PiotrK-code/currency-converter/blob/main/images/money.jpg)
 
 ## Demo
 

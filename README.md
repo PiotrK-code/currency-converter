@@ -3,4 +3,4 @@
 
 ## Demo
 
-https://piotrk-code.github.io/homepage/
+https://piotrk-code.github.io/currency-converter/

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="css/js.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/form.css" rel="stylesheet">
+    <link href="css/container.css" rel="stylesheet">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Ubuntu:ital,wght@0,400;0,700;1,300&display=swap"
+        rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="js/script.js"></script>
+    <title>Kalkulator walut</title>
+</head>
+
+<body class="body">
+    <form class="js-form form">
+        <h1 class="form__header">
+            Przelicznik walut
+        </h1>
+        <p>
+            <label>
+                <span class="form__labelText">
+                    Kwota w zł*
+                </span>
+                <input placeholder="Wpisz kwotę w zł" class="form__field js-amount" type="number" required step="0.01"
+                    name="amount">
+            </label>
+        </p>
+        <p>
+            <label>
+                <span class="form__labelText">
+                    Waluta:
+                </span>
+                <select class="form__field js-currency" name="currency">
+                    <option value="USD">Dolar amerykański</option>
+                    <option value="EUR">Euro</option>
+                    <option value="GBP">Funt brytyjski</option>
+                    <option value="NOK">Korona norweska</option>
+                </select>
+            </label>
+        </p>
+        <p>
+            <button class="form__button js-button">Przelicz</button>
+        </p>
+        <p class="form__info">Kursy walut z dnia 03.05.2021r.</p>
+        <p class="js-result form_result"></p>
+
+    </form>
+
+</body>
+
+</html>

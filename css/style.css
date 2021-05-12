@@ -1,26 +1,14 @@
 html {
-    box-sizing: border-box;
-  }
-  
-  *,
-  ::after,
-  ::before {
-    box-sizing: inherit;
-  }
-  
-  body {
-    max-width: 1000px;
-    font-family: "Ubuntu", sans-serif;
-    background-image: url("../images/money2.jpg")
-  }
+  box-sizing: border-box;
+}
 
-  .form {
-    background-color: rgb(252, 252, 252);
-    margin: auto;
-    padding: 30px;
-    width: 100%;
-  }
-  .form__result {
-    text-align: center;
-  }
+*, ::after, ::before {
+  box-sizing: inherit;
+}
 
+body {
+  width: 100%;
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+  background-image: url("../images/money2.jpg");
+}
